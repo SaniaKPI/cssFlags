@@ -1,0 +1,153 @@
+.flag {
+  position: relative;
+  width: 300px;
+  margin: 15px;
+  height: 150px;
+}
+
+.flag_ukraine {
+  box-sizing: border-box;
+  background-color: yellow;
+  border-top: 75px solid blue;
+}
+
+.flag_japan {
+  border: 1px solid black;
+}
+.flag_japan:after {
+  content: '';
+  position: absolute;
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.flag_island {
+  background-color: blue;
+}
+.flag_island > .line {
+  position: absolute;
+}
+.flag_island > .line_red {
+  background-color: red;
+  width: 25px;
+}
+.flag_island > .line_white {
+  background-color: white;
+  width: 50px;
+}
+.flag_island > .line_vertical {
+  top: 0;
+  height: 100%;
+}
+.flag_island > .line_horizontal {
+  left: 0;
+  width: 100%;
+}
+.flag_island > .line_vertical.line_white {
+  left: 25%;
+}
+.flag_island > .line_vertical.line_red {
+  left: calc(25% + 25px / 2);
+}
+.flag_island > .line_horizontal.line_white {
+  height: 50px;
+  top: calc(50% - 50px / 2);
+}
+.flag_island > .line_horizontal.line_red {
+  height: 25px;
+  top: calc(50% - 25px / 2);
+}
+
+.flag_czech {
+  border: 1px solid black;
+}
+.flag_czech > .flag__part {
+  position: absolute;
+}
+.flag_czech > .flag__part_white {
+  height: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.flag_czech > .flag__part_red {
+  height: 50%;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  background-color: red;
+}
+.flag_czech > .flag__part_blue {
+  border-top:  75px solid transparent;
+  border-bottom: 75px solid transparent;
+  border-left: 150px solid blue;	 
+}
+
+
+.flag_USA {
+  background-color: red;
+}
+.flag_USA > .flag__part {
+   position: absolute;
+}
+.flag_USA > .flag__part_blue {
+ 
+  width: 40%;
+  height:53.85%;
+  background-color: blue;
+  
+}
+.flag_USA > .flag__part_white_0 {
+  
+  width: 100%;  
+  height:7.69%;
+  top: 7.69%;
+  background-color: white;
+}
+.flag_USA > .flag__part_white_1 {
+  width: 100%;  
+  height:7.69%;
+  top: 23.07%;
+  background-color: white;
+}
+.flag_USA > .flag__part_white_2 {
+  width: 100%;  
+  height:7.69%;
+  top: 38.45%;
+  background-color: white;
+}
+.flag_USA > .flag__part_white_3 {
+  width: 100%;  
+  height:7.69%;
+  top: 53.83%;
+  background-color: white;
+}
+.flag_USA > .flag__part_white_4 {
+  width: 100%;  
+  height:7.69%;
+  top: 69.21%;
+  background-color: white;
+}
+.flag_USA > .flag__part_white_5 {
+  width: 100%;  
+  height:7.69%;
+  top: 84.59%;
+  background-color: white;
+}
+
+.flag_USA > .flag__part_star {
+  width: 20px;  
+  height: 20px;
+  top: 0;
+  background-color: green;
+
+
+
+
+
+}
+
